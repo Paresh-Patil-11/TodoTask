@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Layout containers */
+.container-small {
+  max-width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+.container-medium {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+.container-large {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 8px;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+.btn-success {
+  width: 100%;
+  padding: 8px;
+  background: #43a047;
+  color: white;
+  border: none;
+  margin-top: 6px;
+}
+
+.btn-warning {
+  width: 100%;
+  padding: 8px;
+  background: #f9a825;
+  color: white;
+  border: none;
+}
+
+.btn-edit {
+  background: #0288d1;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 6px;
+}
+
+.btn-delete {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}
+
+/* Navbar */
+.navbar {
+  background: #1976d2;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar button {
+  border: none;
+  padding: 6px 12px;
+  color: white;
+}
+
+.nav-login {
+  background: #43a047;
+  margin-right: 6px;
+}
+
+.nav-register {
+  background: #f9a825;
+}
+
+.nav-logout {
+  background: #e53935;
+}
+
+/* Task list */
+.task-box {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.task-box p {
+  margin: 6px 0;
+}

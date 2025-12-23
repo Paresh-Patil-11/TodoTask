@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container-small {
+  max-width: 300px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.container-medium {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.container-large {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+h2 {
+  color: #1976d2;
+}
+
+input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-primary {
+  width: 100%;
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.btn-success {
+  width: 100%;
+  background: #43a047;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.btn-warning {
+  width: 100%;
+  background: #f9a825;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.btn-edit {
+  background: #0288d1;
+  color: white;
+  border: none;
+  margin-right: 5px;
+  padding: 5px 8px;
+}
+
+.btn-delete {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+}
+
+.navbar {
+  background: #1976d2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar button {
+  border: none;
+  padding: 6px 10px;
+  color: white;
+}
+
+.nav-login {
+  background: #43a047;
+  margin-right: 5px;
+}
+
+.nav-register {
+  background: #f9a825;
+}
+
+.nav-logout {
+  background: #e53935;
+}
+
+.task-box {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-top: 10px;
+}
