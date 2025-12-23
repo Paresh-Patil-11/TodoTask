@@ -35,4 +35,3 @@ This is a simple MERN stack Todo application with authentication.
 
 ### Live Project - https://serviots-dev.onrender.com/ 
 
-Open code editor and run both frontend as well as backend with add your .env values, I didn't apply at github due to security reasons.
