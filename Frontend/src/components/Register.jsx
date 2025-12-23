@@ -1,6 +1,6 @@
 import {useState} from "react"
 import {api} from "../api"
-import "../style.css"
+import "../index.css"
 
 export default function Register({setPage}){
   const [name,setName]=useState("")

@@ -1,4 +1,4 @@
-import "../style.css"
+import "../index.css"
 
 export default function Navbar({page,setPage}){
   function logout(){

@@ -1,6 +1,6 @@
 import {useState} from "react"
 import {api,saveToken} from "../api"
-import "../style.css"
+import "../index.css"
 
 export default function Login({setPage}){
   const [email,setEmail]=useState("")

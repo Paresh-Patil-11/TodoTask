@@ -1,6 +1,6 @@
 import {useState} from "react"
 import {api} from "../api"
-import "../style.css"
+import "../index.css"
 
 export default function EditTaskPage({task,setPage}){
   const [title,setTitle]=useState(task.title)

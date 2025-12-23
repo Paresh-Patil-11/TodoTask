@@ -5,8 +5,7 @@ const port = 5000;
 const mongoose = require("mongoose")
 require("dotenv").config()
 
-
-mongoose.connect("mongodb://127.0.0.1:27017/todoapp").then(()=>{
+mongoose.connect(process.env.MONGO_URL).then(()=>{
     console.log("Connect successfully")
 }).catch((err)=>{
     console.log("Not connected successfully" + err);

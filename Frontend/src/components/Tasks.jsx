@@ -1,6 +1,6 @@
 import {useEffect,useState} from "react"
 import {api} from "../api"
-import "../style.css"
+import "../index.css"
 
 export default function Tasks({setPage,setEditTask}){
   const [tasks,setTasks]=useState([])
